@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 101%;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background: #fff;
+  color: #444;
+}
+
+a {
+  color: #222;
+  border-bottom: 1px solid #2bb5ee;
+  text-decoration: none;
+}
+a:hover {
+  color: #2bb5ee;
+}
+img {
+  outline: 0;
+  border: 0;
+}
+h1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2bb5ee;
+  margin-bottom: 20px;
+  border-top: 2px solid #222;
+  padding-top: 20px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 22px;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 21px;
+}
+h4 {
+  color: #222;
+  font-weight: normal;
+}
+p {
+  margin-bottom: 20px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  bottom: 0;
+  background: #222;
+  color: #fff;
+}
+.menu a {
+  color: #fff;
+}
+.menu > ul {
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #333;
+  margin: 50px 30px 30px 30px;
+  
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  border-bottom: 1px solid #333;
+  display: block;
+  padding: 5px;
+}
+.menu li a.active {
+  color: #2bb5ee;
+  background: #1b1b1b;
+}
+.menu ul ul {
+}
+.menu ul ul li a {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #999;
+}
+.menu .madewith {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #555;
+  border-bottom: 0;
+  font-size: 14px;
+}
+.menu .madewith:hover {
+  color: #2bb5ee;
+}
+
+
+.content {
+  width: 600px;
+  padding: 50px 50px 100px 300px;
+}
+
+.content ul, 
+.content ol {
+  margin: 0 0 22px 17px;
+}
+
+
+code {
+  background: #eee;
+  padding: 0 5px;
+}
+pre {
+  font-family: "Monaco", "Courier", monospace;
+  position: relative;
+  overflow: auto;
+  background: #f9f9f9;
+  -webkit-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -moz-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  -o-box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  box-shadow: rgba(0,0,0, .05) 0px 2px 10px inset;
+  padding: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+pre.highlight {
+  white-space: nowrap;
+}
+pre code {
+  font-family: "Monaco", "Courier", monospace;
+  background: none;
+  padding: 0;
+}

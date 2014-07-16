@@ -1,0 +1,11 @@
+#Kirby Styles
+
+This is a Kirby CMS Theme for creating a brand styleguide. You must purchase a [Kirby license](http://getkirby.com/buy) to use this Theme in production. 
+
+## Demo
+
+You can find a demo with dummy data over here: <http://styles.getkirby.com>
+
+## Installation
+
+It's a default Kirby CMS installation, so please follow the instructions in the Kirby CMS Docs: <http://getkirby.com/docs>

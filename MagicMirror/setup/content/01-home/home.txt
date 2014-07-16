@@ -1,0 +1,19 @@
+Title: SMART MIRROR
+
+----
+
+Text: 
+### Wetter
+
+Hier kann für die Wetterdaten der Ort und das Land definiert werden.
+Folgende Voraussetzungen müssen erfüllt werden.
+
+- Schreibweise: Ort,Land  (Kommatrennung beachten)
+- für Ort und Land enlglische Schreibweise benutzen 
+
+### Komplimente
+
+Ein Kompliment ist eine wohlwollende, freundliche Äußerung.
+
+## Aktuelle Einstellungen 
+
